@@ -12,15 +12,15 @@ Possible options:
 -u - use UDP instead of TCP. Default: use TCP  
 -p - port (both modes). Default: 2233  
 -h host - specify host for connection (client mode). Default: 127.0.0.1  
-
-Send one packet of specified size
--m size (bytes) - send one packet of specified size (client mode)
-
-Send set of packets from size x to size y with step z
--x size (bytes) - size of 1st packet for random generator (client mode)
--y size (bytes) - size of last packet for random generator
--z step (bytes) - increment step for random generator
-
+  
+Send one packet of specified size  
+-m size (bytes) - send one packet of specified size (client mode)  
+  
+Send set of packets from size x to size y with step z  
+-x size (bytes) - size of 1st packet for random generator (client mode)  
+-y size (bytes) - size of last packet for random generator  
+-z step (bytes) - increment step for random generator  
+  
 # Where it works
 Windows x64 (tested on Windows 10)
 Linux x64 (tested on Ubuntu Server 22.04)
